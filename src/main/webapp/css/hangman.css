@@ -1,0 +1,73 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Comic Sans', 'Comic Sans MS', 'cursive';
+}
+
+h1 {
+    font-size: 30px;    
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+.hidden { 
+    display: none; 
+}
+
+.clear { 
+    clear:both;
+}
+
+
+#body-wrapper {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+#body-wrapper > div {	
+	text-align:center;
+}
+
+#game > div {	
+	text-align:center;
+	margin: 5px 50px;
+	font-size: 20px;
+}
+
+.loading {
+    background: transparent url('../img/loading.gif') no-repeat center;
+    height: 50px;
+}
+
+#lettersPlayed {
+	color:blue;
+}
+
+.letterHit {
+	margin-left: 5px;	
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+table, td, th {
+	border: 1px solid black;
+}
+
+#stats {
+	text-align:center;	
+}
+
+#stats table {
+     margin: 0 auto;
+ 
+}
